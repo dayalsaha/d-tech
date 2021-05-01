@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+    Author:Dayal saha
+    Gmail:dayalsaha1234567@gmail.com
+    Website:dayalsaha.com
+
+*/
+
+/*
+
+    =========INDEX==========
+
+    1. HOME
+    2. SERVICES
+    3. PRICE
+    4. ABOUT
+    5. CONTACT
+
+*/
+
+
+/*-------------------------------------------Global css start-------------------------------------------------------*/ 
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+}
+
+i{
+    color: #2fccd0;
+}
+
+/*-------------------------------------------Global css close-------------------------------------------------------*/ 
+
+
+/*-------------------------------------------header css start-------------------------------------------------------*/ 
+.header {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background: linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)), url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+    clip-path: polygon(100% 0%, 100% 73%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+    z-index: 100 !important;
+}
+
+.header:before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    opacity: .4;
+    z-index: -1;
+}
+
+
+.nav-head{
+    padding: 25px 0;
+}
+
+.fa.fa-bars{
+    color: white;
+}
+
+
+.nav-link{
+    color: white;
+    margin-right: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.hero-heading{
+   
+}
+
+.hero-heading h1 {
+    color: white;
+    font-size: 26px;
+    padding-top: 160px;
+}
+
+
+.hero-heading p {
+    font-size: 16px;
+    color: white;
+    padding-bottom: 6px;
+}
+
+.hero-btn a {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 4px;
+    padding: 9px 28px;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+.hero-btn a:hover{
+    text-decoration: none;
+    color: #50d1c0; 
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+/*-------------------------------------------header css close-------------------------------------------------------*/ 
+
+/*-------------------------------------------three extra div section start-----------------------------------------------*/ 
+
+.extra-div{
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+}
+
+
+.e-div-item {
+    background: white;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+.e-div-item h2 {
+    font-size: 13px;
+    font-weight: bold;
+    word-spacing: 4px;
+    line-height: 1.1;
+    margin-top: 20px;
+}
+
+
+.e-div-item p {
+    font-size: 8px;
+    color: #606060;
+    font-weight: 200;
+}
+
+.e-div-item:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); 
+    transform: translateY(-20px);
+}
+
+
+
+/*-------------------------------------------three extra div section close-----------------------------------------------*/ 
+
+/*-------------------------------------------------offer section start-----------------------------------------------*/ 
+
+.offer{
+    width: 100%;
+    float: left;
+    background: #F7F5F9;
+    padding: 60px 0;
+    margin-bottom: 50px;
+}
+
+
+.offer-heading h2 {
+    font-weight: bold;
+}
+
+.offer-heading p{
+   margin-bottom: 60px;
+}
+
+.names h1{
+    font-size: 15px;
+    font-weight: bold;
+    color: #2e2e2e;
+}
+
+
+.progress{
+    margin-bottom: 29px !important;
+}
+
+.offer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-text h2{
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing:4px;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/*-------------------------------------------------offer section close-----------------------------------------------*/ 
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------offer section close-----------------------------------------------*/ 
